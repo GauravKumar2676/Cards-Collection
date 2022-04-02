@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  flex-direction: row;
+  width: 100%;
+  overflow: hidden;
+}
+
+.info-about {
+  padding: 1.5em;
+  justify-content: center;
+  align-items: center; /* <---- NEW    */
+  background: rgb(78, 78, 78);
+  color: aliceblue;
+  font-family: "Cinzel", serif;
+  border-radius: 2.5em;
+  width: 30em;
+  margin-top: 5em;
+  font-size: 1.5em;
+}
+
+.info-about > h1 {
+  text-align: center;
+}
+/* .info-about >a {
+    display: inline-flex;
+    display: flex;
+    flex-direction: rpw;
+    align-items: center;
+} */
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.social > a:hover{
+    transform: scale(1.1);
+}
+
+
