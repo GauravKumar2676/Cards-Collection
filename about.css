@@ -1,3 +1,7 @@
+*{
+  overflow: hidden;
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -10,7 +14,7 @@
 .info-about {
   padding: 1.5em;
   justify-content: center;
-  align-items: center; /* <---- NEW    */
+  align-items: center;
   background: rgb(78, 78, 78);
   color: aliceblue;
   font-family: "Cinzel", serif;
@@ -20,15 +24,21 @@
   font-size: 1.5em;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .info-about > h1 {
   text-align: center;
 }
-/* .info-about >a {
-    display: inline-flex;
-    display: flex;
-    flex-direction: rpw;
-    align-items: center;
-} */
 
 .social{
     display: flex;
